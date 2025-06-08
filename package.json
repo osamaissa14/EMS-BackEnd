@@ -1,25 +1,18 @@
 {
-  "name": "lms-capstone-project",
+  "name": "authexample",
   "version": "1.0.0",
-  "description": "This is a full-stack Online Learning Management System (LMS) built as a capstone project for the DigiSkills ICT Upskilling Programme. The system allows students, instructors, and admins to interact in a modern e-learning environment.",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/lms-capstone-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/lms-capstone-project/issues"
-  },
-  "homepage": "https://github.com/YOUR_USERNAME/lms-capstone-project#readme",
   "dependencies": {
-     "bcryptjs": "^3.0.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
@@ -30,5 +23,6 @@
     "pg": "^8.16.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.7"
-  }
+  },
+  "description": ""
 }
